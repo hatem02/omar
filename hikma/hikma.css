@@ -1,0 +1,152 @@
+
+body{
+    background-image:url(/image/im1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+}/********creation nav bar*******/
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding : 10px;
+    margin: 0;
+    margin-right: 0;
+   
+}
+
+.nav-bar ul{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar li{
+    list-style-type: none;
+    justify-content: center;
+    margin-right: 0;
+}
+.nav-bar a{
+    text-decoration: none;
+    color:#ababab; 
+
+}
+.nav-bar a:hover{
+    color: #00c3a5;
+}
+.nav-bar .active {
+    color: #00c3a5;
+}
+ul li a {
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+   justify-content: center;
+    border-radius: 25px;
+    display: inline-block;
+    width: 250px;
+    transition:0.5s;
+    position: relative;
+    z-index: 10;
+
+}
+/****************************caroussel**********************************/
+
+.slide{
+   padding-top: 80px;
+   padding-bottom: 80px;
+    display: flex;
+    overflow:scroll;
+    scroll-behavior: smooth;
+    width: 1200px;
+}
+.ensemble-fleche{
+    width:700px;
+    min-width: 700px;
+    display: flex;
+    margin: auto;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+.card{
+
+width:200px;
+height: 200px;
+min-width:200px;
+min-height:200px;
+transition-duration: 1000ms;
+margin: 5px;
+z-index: 1;
+}
+
+.card1{
+background: url(ima1.jpg);
+background-size:contain;
+background-repeat: no-repeat;
+
+}
+.card2{
+background:url(ima2.jpg);
+background-size:contain;
+background-repeat: no-repeat;
+}
+.card3{
+background:url(ima3.jpg);
+background-size:contain;
+background-repeat: no-repeat;
+}
+.card4{
+background:url(ima4.jpg);
+background-size:contain;
+background-repeat: no-repeat;
+}
+.card5{
+background:url(ima5.jpg);
+background-size:contain;
+background-repeat: no-repeat;
+}
+.card6{
+background:url(ima6.jpg);
+background-size:contain;
+background-repeat: no-repeat;
+}
+.card7{
+background:url(ima7.jpg);
+background-size:contain;
+background-repeat: no-repeat;
+}
+.card8{
+background:url(ima8.jpg);
+background-size:contain;
+background-repeat: no-repeat;
+}
+.card9{
+background:url(ima9.jpg);
+background-size:contain;
+background-repeat: no-repeat;
+}
+.card10{
+background:url(ima10.jpg);
+background-size:contain;
+background-repeat: no-repeat;
+}
+.card11{
+    background:url(ima11.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    }
+.card12{
+    background:url(ima12.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    }
+    

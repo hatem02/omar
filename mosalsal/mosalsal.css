@@ -1,0 +1,50 @@
+/********creation nav bar*******/
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding : 10px;
+    margin: 0;
+    margin-right: 0;
+   
+}
+
+.nav-bar ul{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar li{
+    list-style-type: none;
+    justify-content: center;
+    margin-right: 0;
+}
+.nav-bar a{
+    text-decoration: none;
+    color:#ababab; 
+
+}
+.nav-bar a:hover{
+    color: #00c3a5;
+}
+.nav-bar .active {
+    color: #00c3a5;
+}
+ul li a {
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+   justify-content: center;
+    border-radius: 25px;
+    display: inline-block;
+    width: 250px;
+    transition:0.5s;
+    position: relative;
+    z-index: 10;
+
+}
